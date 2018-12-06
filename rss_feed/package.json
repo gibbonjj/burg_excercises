@@ -1,0 +1,17 @@
+{
+  "name": "rss_feed",
+  "version": "1.0.0",
+  "description": "Pulls article queries from Google RSS feed and pushes to MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "James Gibbons",
+  "license": "ISC",
+  "dependencies": {
+    "googlenews-rss-scraper": "^1.0.2",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.15"
+  }
+}

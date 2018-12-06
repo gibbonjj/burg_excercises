@@ -1,6 +1,5 @@
 let axios = require('axios');
 let cheerio = require('cheerio');
-let fs = require('fs'); 
 
 
 axios.get('https://www.latimes.com/nation/la-na-pol-troops-border-20181204-20181203-dlg6yksd5bbwjdl7iheirbgn4i-story.html')
